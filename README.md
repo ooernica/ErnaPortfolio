@@ -1,10 +1,10 @@
 # ErnaPortfolio
 By: Erna Lukac
 
-#Summary
+# Summary
 
-#Contributors
+# Contributors
 
 
-#Built With
+# Built With
 HTML, CSS
