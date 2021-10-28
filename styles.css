@@ -1,0 +1,44 @@
+h1 {
+    color: var(--light)
+}
+
+body {
+    background-color: var(--dark);
+    color: var(--white);
+}
+
+.info {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+
+}
+nav {
+    color: var(--medium);
+    font-weight: bold;
+    font-size: 20px;
+    display: flex;
+    flex: wrap;
+    justify-content: flex-end;
+
+}
+
+nav > ul {
+    display: flex;
+    list-style: none;
+}
+
+nav > ul > li {
+    margin-right: 40px;
+}
+
+main > img {
+    width: 500px;
+    box-shadow: 10px 10px black;
+}
+
+main > div{
+    display: flex;
+    flex-grow: 1;
+    flex: wrap;
+}
