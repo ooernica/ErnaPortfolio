@@ -34,7 +34,8 @@ nav > ul > li {
 /* Placeholder for an image of me */
 main > img {
     width: 500px;
-    box-shadow: 10px 10px black;
+    border-radius: 25px;
+    box-shadow: 10px 10px rgb(31, 30, 30);
 }
 /* this is the "About Me/Contact Me flex box formatting */
 main > div{
