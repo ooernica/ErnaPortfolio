@@ -35,7 +35,7 @@ nav > ul > li {
     display: flex;
     flex-direction: column;
     float: right;
-    margin-right: 15%;
+    margin-right: 25%;
 }
 /* Placeholder for an image of me */
 main > img {
