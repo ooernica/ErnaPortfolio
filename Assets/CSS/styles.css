@@ -68,6 +68,7 @@ a {
     box-shadow: 10px 10px rgb(31, 30, 30);
     float: left;
     order: 1;
+    object-fit: cover;
 
 }
 /* summary of projects */
@@ -111,7 +112,7 @@ a {
     margin: 5%;
     
 }
-@media (max-width: 1015px) {
+@media (max-width: 414px) {
     .info, .erna, .FeaturedImg, .projectImg,{
         min-width: 50%;
         flex-wrap: wrap;
@@ -119,10 +120,17 @@ a {
         margin: 25%
     }
 }
-@media (min-width: 375px) {
+@media (max-width: 414px) {
     .info, .erna {
-        min-width: 50%;
+        width: 250px;
+        height: 250px;
         flex-wrap: wrap;
         text-align: center;
     }
 }
+
+/* @media (max-width: 480px) and (orientation:portrait) {
+    body {
+        background-color: red;
+    }
+}  */
