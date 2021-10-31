@@ -1,5 +1,11 @@
 h1 {
-    color: var(--light)
+    color: var(--medium)
+}
+h2 {
+    color: var(--darkest)
+}
+p {
+    color: var(--white);
 }
 
 body {
@@ -40,9 +46,12 @@ nav > ul > li {
 }
 /* section containing about me and contact me */
 #AboutMe {
+    width: 100%;
     display: flex;
+    flex-wrap: wrap;
     flex-direction: column;
-    float: right;
+    order: 2;
+    float: center;
 }
 /* allows the linked in link to have color other than blue */
 a {
@@ -51,39 +60,61 @@ a {
 }
 /* Image of me */
 .erna {
+    display: flex;
+    flex-wrap: wrap;
     width: 500px;
+    height: 500px;
     border-radius: 25px;
     box-shadow: 10px 10px rgb(31, 30, 30);
-    display: flex;
     float: left;
+    order: 1;
 
 }
 /* summary of projects */
 #summary {
     display: flex;
-    margin-left: 60%;
+    flex-wrap: wrap;
+    width: 100%;
+    justify-content: center;
     margin-bottom: 20%;
+    text-align: center;
+
 }
 
-.oddProject {
+.Project12 {
     display: flex;
     flex-direction: column;
     float: left;
+    text-align: center;
 }
-.evenProject {
+
+.Project34 {
     display: flex;
     flex-direction: column;
     float: right;
-}
-.project1, .project3 {
-    margin-right: 40%;
-    justify-content: flex-end;
+    text-align: center;
 }
 
-.project2, .project4 {
-    margin-left: 40%;
+.projectImg {
+    display: flex;
+    flex-wrap: wrap;
+    float: left;
+    width: 100%;
+    padding: 10px;
+    margin: 5%;
+    
 }
-
-.pps12, .pps22 {
-    margin-bottom: 30%;
+@media (max-width: 978px) {
+    .info, .erna{
+        min-width: 50%;
+        flex-wrap: wrap;
+        text-align: center;
+    }
+}
+@media (min-width: 375px) {
+    .info, .erna {
+        min-width: 50%;
+        flex-wrap: wrap;
+        text-align: center;
+    }
 }
