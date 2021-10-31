@@ -16,3 +16,6 @@ HTML, CSS
 
 # Citations
 Did not borrow any code. This is all from scratch, no bootstrap.
+
+# Screenshot
+![Alt text](Assets\Images\ooernica.github.io_ErnaPortfolio_.png)
