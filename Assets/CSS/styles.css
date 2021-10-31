@@ -7,6 +7,13 @@ body {
     color: var(--white);
 }
 /* This is the "About Me/Contact Me" Section in the body  */
+
+/* main sections */
+main {
+    display: flex;
+    flex-direction: column;
+}
+
 .info, p {
     display: flex;
     flex-direction: column;
@@ -31,24 +38,32 @@ nav > ul {
 nav > ul > li {
     margin-right: 40px;
 }
-.container {
+/* section containing about me and contact me */
+#AboutMe {
     display: flex;
     flex-direction: column;
     float: right;
-    margin-right: 25%;
+    margin: 0;
+    order: 1;
 }
-/* Placeholder for an image of me */
-main > img {
+/* allows the linked in link to have color other than blue */
+a {
+    color: var(--white);
+    text-decoration: none;
+}
+/* Image of me */
+.erna {
     width: 500px;
     border-radius: 25px;
     box-shadow: 10px 10px rgb(31, 30, 30);
     display: flex;
-}
-.erna {
     float: left;
+
 }
-/* this is the "About Me/Contact Me flex box formatting */
-main > div{
+/* summary of projects */
+.summary {
     display: flex;
-    flex-grow: 1;
+    order: 2;
+    flex: wrap;
+    flex-direction: row;
 }
