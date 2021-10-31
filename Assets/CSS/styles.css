@@ -80,6 +80,13 @@ a {
     text-align: center;
 
 }
+.FeaturedImg {
+    display: flex;
+    flex-wrap: wrap;
+    width: 400px;
+    height: 400px;
+    margin: 0 auto;
+}
 
 .Project12 {
     display: flex;
@@ -104,11 +111,12 @@ a {
     margin: 5%;
     
 }
-@media (max-width: 978px) {
-    .info, .erna{
+@media (max-width: 1015px) {
+    .info, .erna, .FeaturedImg, .projectImg,{
         min-width: 50%;
         flex-wrap: wrap;
         text-align: center;
+        margin: 25%
     }
 }
 @media (min-width: 375px) {
