@@ -15,10 +15,10 @@ body {
 /* This is the "About Me/Contact Me" Section in the body  */
 
 /* main sections */
-main {
+/* main {
     display: flex;
     flex-direction: column;
-}
+} */
 
 .info, .AboutMeParagraph {
     display: flex;
@@ -44,14 +44,12 @@ nav > ul {
 nav > ul > li {
     margin-right: 40px;
 }
+
 /* section containing about me and contact me */
-#AboutMe {
+.AboutMe {
     width: 100%;
     display: flex;
     flex-wrap: wrap;
-    flex-direction: column;
-    order: 2;
-    float: center;
 }
 /* allows the linked in link to have color other than blue */
 a {
@@ -60,16 +58,10 @@ a {
 }
 /* Image of me */
 .erna {
-    display: flex;
-    flex-wrap: wrap;
-    width: 500px;
-    height: 500px;
     border-radius: 25px;
     box-shadow: 10px 10px rgb(31, 30, 30);
-    float: left;
-    order: 1;
     object-fit: cover;
-
+    width: 50%;
 }
 /* summary of projects */
 #summary {
@@ -122,10 +114,9 @@ a {
 }
 @media (max-width: 414px) {
     .info, .erna {
-        width: 250px;
-        height: 250px;
         flex-wrap: wrap;
         text-align: center;
+        width: 100%;
     }
 }
 
