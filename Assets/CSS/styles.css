@@ -14,7 +14,7 @@ main {
     flex-direction: column;
 }
 
-.info, p {
+.info, .AboutMeParagraph {
     display: flex;
     flex-direction: column;
     align-items: center;
@@ -43,8 +43,6 @@ nav > ul > li {
     display: flex;
     flex-direction: column;
     float: right;
-    margin: 0;
-    order: 1;
 }
 /* allows the linked in link to have color other than blue */
 a {
@@ -61,9 +59,31 @@ a {
 
 }
 /* summary of projects */
-.summary {
+#summary {
     display: flex;
-    order: 2;
-    flex: wrap;
-    flex-direction: row;
+    margin-left: 60%;
+    margin-bottom: 20%;
+}
+
+.oddProject {
+    display: flex;
+    flex-direction: column;
+    float: left;
+}
+.evenProject {
+    display: flex;
+    flex-direction: column;
+    float: right;
+}
+.project1, .project3 {
+    margin-right: 40%;
+    justify-content: flex-end;
+}
+
+.project2, .project4 {
+    margin-left: 40%;
+}
+
+.pps12, .pps22 {
+    margin-bottom: 30%;
 }
