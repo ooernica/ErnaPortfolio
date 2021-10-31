@@ -13,18 +13,12 @@ body {
     color: var(--white);
 }
 /* This is the "About Me/Contact Me" Section in the body  */
-
-/* main sections */
-/* main {
-    display: flex;
-    flex-direction: column;
-} */
-
-.info, .AboutMeParagraph {
+.myinfo, .info, .AboutMeParagraph {
     display: flex;
     flex-direction: column;
     align-items: center;
-
+    justify-content: center;
+    width: 75%;
 }
 /* controls the nav bar */
 nav {
@@ -50,6 +44,7 @@ nav > ul > li {
     width: 100%;
     display: flex;
     flex-wrap: wrap;
+
 }
 /* allows the linked in link to have color other than blue */
 a {
@@ -61,7 +56,7 @@ a {
     border-radius: 25px;
     box-shadow: 10px 10px rgb(31, 30, 30);
     object-fit: cover;
-    width: 50%;
+    width: 25%;
 }
 /* summary of projects */
 #summary {
@@ -104,14 +99,7 @@ a {
     margin: 5%;
     
 }
-@media (max-width: 414px) {
-    .info, .erna, .FeaturedImg, .projectImg,{
-        min-width: 50%;
-        flex-wrap: wrap;
-        text-align: center;
-        margin: 25%
-    }
-}
+
 @media (max-width: 414px) {
     .info, .erna {
         flex-wrap: wrap;
@@ -120,8 +108,11 @@ a {
     }
 }
 
-/* @media (max-width: 480px) and (orientation:portrait) {
-    body {
-        background-color: red;
+@media (max-width: 632px) {
+    .erna, .myinfo, #summary, .Featured, .Project12, .Project34, .projectImg {
+        flex-wrap: wrap;
+        text-align: center;
+        width: 100%;
+        justify-content: center;
     }
-}  */
+}
