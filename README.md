@@ -1,5 +1,5 @@
 # ErnaPortfolio
-By: Erna Lukac
+By: Erna Lukač
 
 # Summary
 This is a portfolio of my work I built from scratch. It's purpose is to be able to submit to potential employers to showcase my work and let employers know a little bit about me. 
